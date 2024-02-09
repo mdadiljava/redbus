@@ -34,4 +34,6 @@ public class PaymentController {
     private String generateResponse(String clientSecret){
         return "{\"clientSecret\":\"" + clientSecret + "\"}";
     }
+    public void test(){
+    }
 }
